@@ -1,0 +1,11 @@
+<model-viewer src="LTC_B01_AB_CS_BIM_color.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.97" environment-image="legacy" shadow-softness="0.55" camera-orbit="672.6deg 66.93deg 91.43m" field-of-view="12deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
